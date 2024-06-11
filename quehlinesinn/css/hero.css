@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#toptiny-bar {
+  display: flex;
+  background-color: rgb(243, 102, 126);
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 10px 20px;
+  
+}
+
+.contacts {
+    display: flex;
+    justify-content: left;
+
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 54px;
+  padding: 10px 20px;
+  align-items: center;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255, 255, 255) 
+  
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    /* justify-items: auto; */
+
+
+}
+
+/* #nav-links .span{
+    justify-content: space-between;
+} */
+
+#logo {
+  /* display: flex; */
+  width: 200px;
+}
+
+#hero {
+  background-image: url(../assets/images/hero.jpg);
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+}

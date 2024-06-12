@@ -5,6 +5,7 @@
 body{
     overflow-x: hidden;
     margin: 0;
+    padding: 0;
 }
 
 .poppins-regular {
@@ -25,7 +26,8 @@ body{
   background-color: rgb(243, 102, 126);
   justify-content: space-between;
   /* align-items: center; */
-  padding: 10px 20px;
+  padding: 0;
+  height: 28px;
   
 }
 
@@ -34,28 +36,76 @@ body{
     justify-content: left;
 
 }
+
+.contact-us {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6); 
+  font-family: "Poppins";
+
+}
+
+.nub-add {
+  font-family: "Poppins";
+  color: white;
+  font-size: 12px;
+
+}
+
+.nub-add a {
+  text-decoration: none;
+  color: white;
+
+}
+.social-icons {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+   
+}
+
+.social-icons a i {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  color: white;
+  margin-left: 30px;
+
+
+}
+
 #nav-bar {
   display: flex;
   justify-content: space-between;
   width: 100vw;
   height: 54px;
   padding: 10px 20px;
+  text-decoration: none;
   align-items: center;
-  background-attachment: scroll;
-  background-clip: border-box;
   background-color: rgb(255, 255, 255) 
   
 }
 
 #nav-links {
     display: flex;
-    justify-content: space-between;
+    text-decoration: none;
+    column-gap: 40px;
+    font-size: 15px;
+    color: black;
     padding-right: 50px;
-    /* justify-items: auto; */
-
-
 }
 
+/* Add text-decoration to the a elements within nav-links */
+#nav-links a {
+  text-decoration: none;
+  color: black; /* Set the text color */
+   font-family: "Poppins"
+}
+
+/* Optional: Add hover effect for better user experience */
+#nav-links a:hover {
+  color: #fd7792; /* Change the color on hover */
+  transition: .3s all ease;
+}
 /* #nav-links .span{
     justify-content: space-between;
 } */

@@ -139,29 +139,7 @@ body{
   row-gap: 20px;
   }
 
-/* #about {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 70px;
-  align-items: center;
-  row-gap: 10px;
-  background-color: #ebebeb;
-  width: 100vw;
 
-} */
-
-
- /* #about {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  width: 80vw;
-  position: relative;
-  text-align: center;
-  color: black;
-
- } */
 
 .readmore {
   /* background-color: white; */
@@ -182,10 +160,10 @@ body{
 
 .readmore-content{
   background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 30%;
+    width: 70%;
     margin: 0 10px;
     transform: translateY(-25%);
 }
@@ -214,6 +192,7 @@ body{
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-decoration: none;
 }
 
 .readmore-content button:hover {
